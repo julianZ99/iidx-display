@@ -1,5 +1,7 @@
 # IIDX Display
-# WIP
+
+> **WIP** — PCB design complete, firmware and PC bridge not yet implemented.
+> Untested — hardware not yet fabricated/assembled.
 
 DIY 9-digit 16-segment display for beatmania IIDX and general PC use.
 
@@ -30,8 +32,6 @@ segments A/B/C (extra current drive).
 U2 address is set via a diode+resistor network on the AD/COM0 pin.
 
 ### PCB
-### Untested
-
 
 KiCad design files are in `pcb/`. Footprint library: `pcb/iidx-library.pretty/`.
 
@@ -64,7 +64,6 @@ the string over USB serial to the Pico.
 ```
 
 ## Firmware
-## TODO
 
 C/C++ using the Raspberry Pi Pico SDK. Source in `firmware/`.
 
@@ -93,6 +92,13 @@ API request format (null-terminated JSON):
 ```
 
 Response includes the 9-char ticker string in the `data` field.
+
+## TODO
+
+- [ ] Assemble and test first prototype
+- [ ] Implement Pico firmware (I2C init, HT16K33 config, font table, USB serial)
+- [ ] Implement PC bridge script (spice2x TCP API → serial)
+- [ ] Test with spice2x `-api` ticker data
 
 ## License
 
