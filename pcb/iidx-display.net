@@ -1,0 +1,5488 @@
+(export
+	(version "E")
+	(design
+		(source "/home/julian/Documents/CAD/iidx-display/iidx-display.kicad_sch")
+		(date "2026-05-02T19:18:55")
+		(tool "Eeschema 10.0.1")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title)
+				(company)
+				(rev)
+				(date)
+				(source "iidx-display.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "A1")
+			(value "RaspberryPi_Pico")
+			(footprint "Module:RaspberryPi_Pico_Common_Unspecified")
+			(datasheet "https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf")
+			(description "Versatile and inexpensive microcontroller module powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash; also supports Raspberry Pi Pico 2")
+			(fields
+				(field
+					(name "Footprint") "Module:RaspberryPi_Pico_Common_Unspecified")
+				(field
+					(name "Datasheet") "https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf")
+				(field
+					(name "Description") "Versatile and inexpensive microcontroller module powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash; also supports Raspberry Pi Pico 2")
+			)
+			(libsource
+				(lib "MCU_Module")
+				(part "RaspberryPi_Pico")
+				(description "Versatile and inexpensive microcontroller module powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash; also supports Raspberry Pi Pico 2")
+			)
+			(property
+				(name "Sheetname")
+				(value "iidx-display")
+			)
+			(property
+				(name "Sheetfile")
+				(value "iidx-display.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RP2350A M33 RISC-V Hazard3 usb")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "RaspberryPi?Pico?Common* RaspberryPi?Pico?SMD*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "538aa9c6-3ab1-43ad-87f7-a5be971d7875")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "30")
+						)
+						(pin
+							(num "37")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "39")
+						)
+						(pin
+							(num "40")
+						)
+						(pin
+							(num "23")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "38")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "28")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "36")
+						)
+						(pin
+							(num "21")
+						)
+						(pin
+							(num "22")
+						)
+						(pin
+							(num "24")
+						)
+						(pin
+							(num "25")
+						)
+						(pin
+							(num "26")
+						)
+						(pin
+							(num "27")
+						)
+						(pin
+							(num "29")
+						)
+						(pin
+							(num "35")
+						)
+						(pin
+							(num "31")
+						)
+						(pin
+							(num "32")
+						)
+						(pin
+							(num "34")
+						)
+						(pin
+							(num "33")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C1")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "iidx-display")
+			)
+			(property
+				(name "Sheetfile")
+				(value "iidx-display.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4936a4a3-3280-470f-8e59-04db5d4d6075")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C2")
+			(value "10µF")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "iidx-display")
+			)
+			(property
+				(name "Sheetfile")
+				(value "iidx-display.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "afc9295b-8389-4ba3-93c9-d6da3b869d0b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C3")
+			(value "47µF")
+			(footprint "Capacitor_SMD:C_1206_3216Metric")
+			(description "Polarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Polarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C_Polarized")
+				(description "Polarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "iidx-display")
+			)
+			(property
+				(name "Sheetfile")
+				(value "iidx-display.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "CP_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "40df7624-0300-47b5-ad66-d83a3b902783")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C4")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "iidx-display")
+			)
+			(property
+				(name "Sheetfile")
+				(value "iidx-display.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "83c74f58-663a-4e78-94c7-d4bd3e762549")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C5")
+			(value "10µF")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "iidx-display")
+			)
+			(property
+				(name "Sheetfile")
+				(value "iidx-display.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3d45ca6a-f8a1-4d9b-abed-e66d1b96f7f3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D1")
+			(value "1N4148WS")
+			(footprint "Diode_SMD:D_SOD-323")
+			(datasheet "https://www.vishay.com/docs/85751/1n4148ws.pdf")
+			(description "75V 0.15A Fast switching Diode, SOD-323")
+			(fields
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-323")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/85751/1n4148ws.pdf")
+				(field
+					(name "Description") "75V 0.15A Fast switching Diode, SOD-323")
+			)
+			(libsource
+				(lib "Diode")
+				(part "1N4148WS")
+				(description "75V 0.15A Fast switching Diode, SOD-323")
+			)
+			(property
+				(name "Sim.Device")
+				(value "D")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "iidx-display")
+			)
+			(property
+				(name "Sheetfile")
+				(value "iidx-display.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "D*SOD?323*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b1bf40b4-dc51-4bab-bcc9-d793941894d8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED1")
+			(value "~")
+			(footprint "ProLib_pcs_2026-05-01:LED-SEG-TH_18P-L27.7-W19.9-P2.54-LS15.2_HDSP-3903")
+			(datasheet "https://item.szlcsc.com/datasheet/PSC08-11SURKWA/7201483.html")
+			(description "Number of Characters:1 Display Type:16 Segment Digit/Alpha Size(inch):0.8 Pd - Power Dissipation:75mW Illumination Color:Red LED Polarity:Common Cathode")
+			(fields
+				(field
+					(name "Manufacturer Part") "PSC08-11SURKWA")
+				(field
+					(name "Manufacturer") "Kingbright")
+				(field
+					(name "Supplier Part") "C6256052")
+				(field
+					(name "Supplier") "LCSC")
+				(field
+					(name "LCSC Part Name") "PSC08-11SURKWA")
+				(field
+					(name "Footprint") "ProLib_pcs_2026-05-01:LED-SEG-TH_18P-L27.7-W19.9-P2.54-LS15.2_HDSP-3903")
+				(field
+					(name "Datasheet") "https://item.szlcsc.com/datasheet/PSC08-11SURKWA/7201483.html")
+				(field
+					(name "Description") "Number of Characters:1 Display Type:16 Segment Digit/Alpha Size(inch):0.8 Pd - Power Dissipation:75mW Illumination Color:Red LED Polarity:Common Cathode")
+			)
+			(libsource
+				(lib "iidx-library")
+				(part "PSC08-11SURKWA")
+				(description "Number of Characters:1 Display Type:16 Segment Digit/Alpha Size(inch):0.8 Pd - Power Dissipation:75mW Illumination Color:Red LED Polarity:Common Cathode")
+			)
+			(property
+				(name "Manufacturer Part")
+				(value "PSC08-11SURKWA")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Kingbright")
+			)
+			(property
+				(name "Supplier Part")
+				(value "C6256052")
+			)
+			(property
+				(name "Supplier")
+				(value "LCSC")
+			)
+			(property
+				(name "LCSC Part Name")
+				(value "PSC08-11SURKWA")
+			)
+			(property
+				(name "Sheetname")
+				(value "iidx-display")
+			)
+			(property
+				(name "Sheetfile")
+				(value "iidx-display.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "661316d7-e8ee-4b61-a1a2-f986142da6a9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "10")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED2")
+			(value "~")
+			(footprint "ProLib_pcs_2026-05-01:LED-SEG-TH_18P-L27.7-W19.9-P2.54-LS15.2_HDSP-3903")
+			(datasheet "https://item.szlcsc.com/datasheet/PSC08-11SURKWA/7201483.html")
+			(description "Number of Characters:1 Display Type:16 Segment Digit/Alpha Size(inch):0.8 Pd - Power Dissipation:75mW Illumination Color:Red LED Polarity:Common Cathode")
+			(fields
+				(field
+					(name "Manufacturer Part") "PSC08-11SURKWA")
+				(field
+					(name "Manufacturer") "Kingbright")
+				(field
+					(name "Supplier Part") "C6256052")
+				(field
+					(name "Supplier") "LCSC")
+				(field
+					(name "LCSC Part Name") "PSC08-11SURKWA")
+				(field
+					(name "Footprint") "ProLib_pcs_2026-05-01:LED-SEG-TH_18P-L27.7-W19.9-P2.54-LS15.2_HDSP-3903")
+				(field
+					(name "Datasheet") "https://item.szlcsc.com/datasheet/PSC08-11SURKWA/7201483.html")
+				(field
+					(name "Description") "Number of Characters:1 Display Type:16 Segment Digit/Alpha Size(inch):0.8 Pd - Power Dissipation:75mW Illumination Color:Red LED Polarity:Common Cathode")
+			)
+			(libsource
+				(lib "iidx-library")
+				(part "PSC08-11SURKWA")
+				(description "Number of Characters:1 Display Type:16 Segment Digit/Alpha Size(inch):0.8 Pd - Power Dissipation:75mW Illumination Color:Red LED Polarity:Common Cathode")
+			)
+			(property
+				(name "Manufacturer Part")
+				(value "PSC08-11SURKWA")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Kingbright")
+			)
+			(property
+				(name "Supplier Part")
+				(value "C6256052")
+			)
+			(property
+				(name "Supplier")
+				(value "LCSC")
+			)
+			(property
+				(name "LCSC Part Name")
+				(value "PSC08-11SURKWA")
+			)
+			(property
+				(name "Sheetname")
+				(value "iidx-display")
+			)
+			(property
+				(name "Sheetfile")
+				(value "iidx-display.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b623b816-1b63-46ad-8bcd-1225b4c56913")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "10")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED3")
+			(value "~")
+			(footprint "ProLib_pcs_2026-05-01:LED-SEG-TH_18P-L27.7-W19.9-P2.54-LS15.2_HDSP-3903")
+			(datasheet "https://item.szlcsc.com/datasheet/PSC08-11SURKWA/7201483.html")
+			(description "Number of Characters:1 Display Type:16 Segment Digit/Alpha Size(inch):0.8 Pd - Power Dissipation:75mW Illumination Color:Red LED Polarity:Common Cathode")
+			(fields
+				(field
+					(name "Manufacturer Part") "PSC08-11SURKWA")
+				(field
+					(name "Manufacturer") "Kingbright")
+				(field
+					(name "Supplier Part") "C6256052")
+				(field
+					(name "Supplier") "LCSC")
+				(field
+					(name "LCSC Part Name") "PSC08-11SURKWA")
+				(field
+					(name "Footprint") "ProLib_pcs_2026-05-01:LED-SEG-TH_18P-L27.7-W19.9-P2.54-LS15.2_HDSP-3903")
+				(field
+					(name "Datasheet") "https://item.szlcsc.com/datasheet/PSC08-11SURKWA/7201483.html")
+				(field
+					(name "Description") "Number of Characters:1 Display Type:16 Segment Digit/Alpha Size(inch):0.8 Pd - Power Dissipation:75mW Illumination Color:Red LED Polarity:Common Cathode")
+			)
+			(libsource
+				(lib "iidx-library")
+				(part "PSC08-11SURKWA")
+				(description "Number of Characters:1 Display Type:16 Segment Digit/Alpha Size(inch):0.8 Pd - Power Dissipation:75mW Illumination Color:Red LED Polarity:Common Cathode")
+			)
+			(property
+				(name "Manufacturer Part")
+				(value "PSC08-11SURKWA")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Kingbright")
+			)
+			(property
+				(name "Supplier Part")
+				(value "C6256052")
+			)
+			(property
+				(name "Supplier")
+				(value "LCSC")
+			)
+			(property
+				(name "LCSC Part Name")
+				(value "PSC08-11SURKWA")
+			)
+			(property
+				(name "Sheetname")
+				(value "iidx-display")
+			)
+			(property
+				(name "Sheetfile")
+				(value "iidx-display.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2d667126-1a98-4e9b-90d7-9b6428c58f60")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "10")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED4")
+			(value "~")
+			(footprint "ProLib_pcs_2026-05-01:LED-SEG-TH_18P-L27.7-W19.9-P2.54-LS15.2_HDSP-3903")
+			(datasheet "https://item.szlcsc.com/datasheet/PSC08-11SURKWA/7201483.html")
+			(description "Number of Characters:1 Display Type:16 Segment Digit/Alpha Size(inch):0.8 Pd - Power Dissipation:75mW Illumination Color:Red LED Polarity:Common Cathode")
+			(fields
+				(field
+					(name "Manufacturer Part") "PSC08-11SURKWA")
+				(field
+					(name "Manufacturer") "Kingbright")
+				(field
+					(name "Supplier Part") "C6256052")
+				(field
+					(name "Supplier") "LCSC")
+				(field
+					(name "LCSC Part Name") "PSC08-11SURKWA")
+				(field
+					(name "Footprint") "ProLib_pcs_2026-05-01:LED-SEG-TH_18P-L27.7-W19.9-P2.54-LS15.2_HDSP-3903")
+				(field
+					(name "Datasheet") "https://item.szlcsc.com/datasheet/PSC08-11SURKWA/7201483.html")
+				(field
+					(name "Description") "Number of Characters:1 Display Type:16 Segment Digit/Alpha Size(inch):0.8 Pd - Power Dissipation:75mW Illumination Color:Red LED Polarity:Common Cathode")
+			)
+			(libsource
+				(lib "iidx-library")
+				(part "PSC08-11SURKWA")
+				(description "Number of Characters:1 Display Type:16 Segment Digit/Alpha Size(inch):0.8 Pd - Power Dissipation:75mW Illumination Color:Red LED Polarity:Common Cathode")
+			)
+			(property
+				(name "Manufacturer Part")
+				(value "PSC08-11SURKWA")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Kingbright")
+			)
+			(property
+				(name "Supplier Part")
+				(value "C6256052")
+			)
+			(property
+				(name "Supplier")
+				(value "LCSC")
+			)
+			(property
+				(name "LCSC Part Name")
+				(value "PSC08-11SURKWA")
+			)
+			(property
+				(name "Sheetname")
+				(value "iidx-display")
+			)
+			(property
+				(name "Sheetfile")
+				(value "iidx-display.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0fd48e91-9334-4977-bd09-464fb7d58d1a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "10")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED5")
+			(value "~")
+			(footprint "ProLib_pcs_2026-05-01:LED-SEG-TH_18P-L27.7-W19.9-P2.54-LS15.2_HDSP-3903")
+			(datasheet "https://item.szlcsc.com/datasheet/PSC08-11SURKWA/7201483.html")
+			(description "Number of Characters:1 Display Type:16 Segment Digit/Alpha Size(inch):0.8 Pd - Power Dissipation:75mW Illumination Color:Red LED Polarity:Common Cathode")
+			(fields
+				(field
+					(name "Manufacturer Part") "PSC08-11SURKWA")
+				(field
+					(name "Manufacturer") "Kingbright")
+				(field
+					(name "Supplier Part") "C6256052")
+				(field
+					(name "Supplier") "LCSC")
+				(field
+					(name "LCSC Part Name") "PSC08-11SURKWA")
+				(field
+					(name "Footprint") "ProLib_pcs_2026-05-01:LED-SEG-TH_18P-L27.7-W19.9-P2.54-LS15.2_HDSP-3903")
+				(field
+					(name "Datasheet") "https://item.szlcsc.com/datasheet/PSC08-11SURKWA/7201483.html")
+				(field
+					(name "Description") "Number of Characters:1 Display Type:16 Segment Digit/Alpha Size(inch):0.8 Pd - Power Dissipation:75mW Illumination Color:Red LED Polarity:Common Cathode")
+			)
+			(libsource
+				(lib "iidx-library")
+				(part "PSC08-11SURKWA")
+				(description "Number of Characters:1 Display Type:16 Segment Digit/Alpha Size(inch):0.8 Pd - Power Dissipation:75mW Illumination Color:Red LED Polarity:Common Cathode")
+			)
+			(property
+				(name "Manufacturer Part")
+				(value "PSC08-11SURKWA")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Kingbright")
+			)
+			(property
+				(name "Supplier Part")
+				(value "C6256052")
+			)
+			(property
+				(name "Supplier")
+				(value "LCSC")
+			)
+			(property
+				(name "LCSC Part Name")
+				(value "PSC08-11SURKWA")
+			)
+			(property
+				(name "Sheetname")
+				(value "iidx-display")
+			)
+			(property
+				(name "Sheetfile")
+				(value "iidx-display.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "84b2cdaf-059c-4d91-9b3e-5eda8e692f5d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "10")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED6")
+			(value "~")
+			(footprint "ProLib_pcs_2026-05-01:LED-SEG-TH_18P-L27.7-W19.9-P2.54-LS15.2_HDSP-3903")
+			(datasheet "https://item.szlcsc.com/datasheet/PSC08-11SURKWA/7201483.html")
+			(description "Number of Characters:1 Display Type:16 Segment Digit/Alpha Size(inch):0.8 Pd - Power Dissipation:75mW Illumination Color:Red LED Polarity:Common Cathode")
+			(fields
+				(field
+					(name "Manufacturer Part") "PSC08-11SURKWA")
+				(field
+					(name "Manufacturer") "Kingbright")
+				(field
+					(name "Supplier Part") "C6256052")
+				(field
+					(name "Supplier") "LCSC")
+				(field
+					(name "LCSC Part Name") "PSC08-11SURKWA")
+				(field
+					(name "Footprint") "ProLib_pcs_2026-05-01:LED-SEG-TH_18P-L27.7-W19.9-P2.54-LS15.2_HDSP-3903")
+				(field
+					(name "Datasheet") "https://item.szlcsc.com/datasheet/PSC08-11SURKWA/7201483.html")
+				(field
+					(name "Description") "Number of Characters:1 Display Type:16 Segment Digit/Alpha Size(inch):0.8 Pd - Power Dissipation:75mW Illumination Color:Red LED Polarity:Common Cathode")
+			)
+			(libsource
+				(lib "iidx-library")
+				(part "PSC08-11SURKWA")
+				(description "Number of Characters:1 Display Type:16 Segment Digit/Alpha Size(inch):0.8 Pd - Power Dissipation:75mW Illumination Color:Red LED Polarity:Common Cathode")
+			)
+			(property
+				(name "Manufacturer Part")
+				(value "PSC08-11SURKWA")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Kingbright")
+			)
+			(property
+				(name "Supplier Part")
+				(value "C6256052")
+			)
+			(property
+				(name "Supplier")
+				(value "LCSC")
+			)
+			(property
+				(name "LCSC Part Name")
+				(value "PSC08-11SURKWA")
+			)
+			(property
+				(name "Sheetname")
+				(value "iidx-display")
+			)
+			(property
+				(name "Sheetfile")
+				(value "iidx-display.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4053ad21-a417-4217-9f3e-2b317eb17b95")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "10")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED7")
+			(value "~")
+			(footprint "ProLib_pcs_2026-05-01:LED-SEG-TH_18P-L27.7-W19.9-P2.54-LS15.2_HDSP-3903")
+			(datasheet "https://item.szlcsc.com/datasheet/PSC08-11SURKWA/7201483.html")
+			(description "Number of Characters:1 Display Type:16 Segment Digit/Alpha Size(inch):0.8 Pd - Power Dissipation:75mW Illumination Color:Red LED Polarity:Common Cathode")
+			(fields
+				(field
+					(name "Manufacturer Part") "PSC08-11SURKWA")
+				(field
+					(name "Manufacturer") "Kingbright")
+				(field
+					(name "Supplier Part") "C6256052")
+				(field
+					(name "Supplier") "LCSC")
+				(field
+					(name "LCSC Part Name") "PSC08-11SURKWA")
+				(field
+					(name "Footprint") "ProLib_pcs_2026-05-01:LED-SEG-TH_18P-L27.7-W19.9-P2.54-LS15.2_HDSP-3903")
+				(field
+					(name "Datasheet") "https://item.szlcsc.com/datasheet/PSC08-11SURKWA/7201483.html")
+				(field
+					(name "Description") "Number of Characters:1 Display Type:16 Segment Digit/Alpha Size(inch):0.8 Pd - Power Dissipation:75mW Illumination Color:Red LED Polarity:Common Cathode")
+			)
+			(libsource
+				(lib "iidx-library")
+				(part "PSC08-11SURKWA")
+				(description "Number of Characters:1 Display Type:16 Segment Digit/Alpha Size(inch):0.8 Pd - Power Dissipation:75mW Illumination Color:Red LED Polarity:Common Cathode")
+			)
+			(property
+				(name "Manufacturer Part")
+				(value "PSC08-11SURKWA")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Kingbright")
+			)
+			(property
+				(name "Supplier Part")
+				(value "C6256052")
+			)
+			(property
+				(name "Supplier")
+				(value "LCSC")
+			)
+			(property
+				(name "LCSC Part Name")
+				(value "PSC08-11SURKWA")
+			)
+			(property
+				(name "Sheetname")
+				(value "iidx-display")
+			)
+			(property
+				(name "Sheetfile")
+				(value "iidx-display.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b6b0e924-57d7-4e5e-9af5-3c0354db098d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "10")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED8")
+			(value "~")
+			(footprint "ProLib_pcs_2026-05-01:LED-SEG-TH_18P-L27.7-W19.9-P2.54-LS15.2_HDSP-3903")
+			(datasheet "https://item.szlcsc.com/datasheet/PSC08-11SURKWA/7201483.html")
+			(description "Number of Characters:1 Display Type:16 Segment Digit/Alpha Size(inch):0.8 Pd - Power Dissipation:75mW Illumination Color:Red LED Polarity:Common Cathode")
+			(fields
+				(field
+					(name "Manufacturer Part") "PSC08-11SURKWA")
+				(field
+					(name "Manufacturer") "Kingbright")
+				(field
+					(name "Supplier Part") "C6256052")
+				(field
+					(name "Supplier") "LCSC")
+				(field
+					(name "LCSC Part Name") "PSC08-11SURKWA")
+				(field
+					(name "Footprint") "ProLib_pcs_2026-05-01:LED-SEG-TH_18P-L27.7-W19.9-P2.54-LS15.2_HDSP-3903")
+				(field
+					(name "Datasheet") "https://item.szlcsc.com/datasheet/PSC08-11SURKWA/7201483.html")
+				(field
+					(name "Description") "Number of Characters:1 Display Type:16 Segment Digit/Alpha Size(inch):0.8 Pd - Power Dissipation:75mW Illumination Color:Red LED Polarity:Common Cathode")
+			)
+			(libsource
+				(lib "iidx-library")
+				(part "PSC08-11SURKWA")
+				(description "Number of Characters:1 Display Type:16 Segment Digit/Alpha Size(inch):0.8 Pd - Power Dissipation:75mW Illumination Color:Red LED Polarity:Common Cathode")
+			)
+			(property
+				(name "Manufacturer Part")
+				(value "PSC08-11SURKWA")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Kingbright")
+			)
+			(property
+				(name "Supplier Part")
+				(value "C6256052")
+			)
+			(property
+				(name "Supplier")
+				(value "LCSC")
+			)
+			(property
+				(name "LCSC Part Name")
+				(value "PSC08-11SURKWA")
+			)
+			(property
+				(name "Sheetname")
+				(value "iidx-display")
+			)
+			(property
+				(name "Sheetfile")
+				(value "iidx-display.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "cc42039c-d052-4eb8-8dc6-a756dc246b3d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "10")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "LED9")
+			(value "~")
+			(footprint "ProLib_pcs_2026-05-01:LED-SEG-TH_18P-L27.7-W19.9-P2.54-LS15.2_HDSP-3903")
+			(datasheet "https://item.szlcsc.com/datasheet/PSC08-11SURKWA/7201483.html")
+			(description "Number of Characters:1 Display Type:16 Segment Digit/Alpha Size(inch):0.8 Pd - Power Dissipation:75mW Illumination Color:Red LED Polarity:Common Cathode")
+			(fields
+				(field
+					(name "Manufacturer Part") "PSC08-11SURKWA")
+				(field
+					(name "Manufacturer") "Kingbright")
+				(field
+					(name "Supplier Part") "C6256052")
+				(field
+					(name "Supplier") "LCSC")
+				(field
+					(name "LCSC Part Name") "PSC08-11SURKWA")
+				(field
+					(name "Footprint") "ProLib_pcs_2026-05-01:LED-SEG-TH_18P-L27.7-W19.9-P2.54-LS15.2_HDSP-3903")
+				(field
+					(name "Datasheet") "https://item.szlcsc.com/datasheet/PSC08-11SURKWA/7201483.html")
+				(field
+					(name "Description") "Number of Characters:1 Display Type:16 Segment Digit/Alpha Size(inch):0.8 Pd - Power Dissipation:75mW Illumination Color:Red LED Polarity:Common Cathode")
+			)
+			(libsource
+				(lib "iidx-library")
+				(part "PSC08-11SURKWA")
+				(description "Number of Characters:1 Display Type:16 Segment Digit/Alpha Size(inch):0.8 Pd - Power Dissipation:75mW Illumination Color:Red LED Polarity:Common Cathode")
+			)
+			(property
+				(name "Manufacturer Part")
+				(value "PSC08-11SURKWA")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Kingbright")
+			)
+			(property
+				(name "Supplier Part")
+				(value "C6256052")
+			)
+			(property
+				(name "Supplier")
+				(value "LCSC")
+			)
+			(property
+				(name "LCSC Part Name")
+				(value "PSC08-11SURKWA")
+			)
+			(property
+				(name "Sheetname")
+				(value "iidx-display")
+			)
+			(property
+				(name "Sheetfile")
+				(value "iidx-display.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "cf36da62-6c77-4aa4-bc83-b0ed77916c64")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "10")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R1")
+			(value "4.7kΩ")
+			(footprint "Resistor_SMD:R_0201_0603Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0201_0603Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "iidx-display")
+			)
+			(property
+				(name "Sheetfile")
+				(value "iidx-display.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ce52bb40-a76c-4c1c-a309-10d39863879f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R2")
+			(value "4.7kΩ")
+			(footprint "Resistor_SMD:R_0201_0603Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0201_0603Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "iidx-display")
+			)
+			(property
+				(name "Sheetfile")
+				(value "iidx-display.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "68c52fb4-1cec-497f-9d24-af3934bc5af8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R3")
+			(value "39kΩ")
+			(footprint "Resistor_SMD:R_0201_0603Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0201_0603Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "iidx-display")
+			)
+			(property
+				(name "Sheetfile")
+				(value "iidx-display.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d78691a4-6c0f-4c8e-b795-3b6808462fd3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R4")
+			(value "330Ω")
+			(footprint "Resistor_SMD:R_0201_0603Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0201_0603Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "iidx-display")
+			)
+			(property
+				(name "Sheetfile")
+				(value "iidx-display.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "237caa65-52d7-4ee8-97cc-cccf6245e3ec")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R5")
+			(value "330Ω")
+			(footprint "Resistor_SMD:R_0201_0603Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0201_0603Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "iidx-display")
+			)
+			(property
+				(name "Sheetfile")
+				(value "iidx-display.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f91ccce1-ed04-45fd-9863-51065a5da4f0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R6")
+			(value "330Ω")
+			(footprint "Resistor_SMD:R_0201_0603Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0201_0603Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "iidx-display")
+			)
+			(property
+				(name "Sheetfile")
+				(value "iidx-display.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "afce5e95-3151-4a8f-aa78-252936b4c3ff")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R7")
+			(value "330Ω")
+			(footprint "Resistor_SMD:R_0201_0603Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0201_0603Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "iidx-display")
+			)
+			(property
+				(name "Sheetfile")
+				(value "iidx-display.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "88649db2-2241-4243-b2c1-a0f725b44462")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R8")
+			(value "330Ω")
+			(footprint "Resistor_SMD:R_0201_0603Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0201_0603Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "iidx-display")
+			)
+			(property
+				(name "Sheetfile")
+				(value "iidx-display.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3d3391a4-0649-4903-a2b7-52cfe6f6dee9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R9")
+			(value "330Ω")
+			(footprint "Resistor_SMD:R_0201_0603Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0201_0603Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "iidx-display")
+			)
+			(property
+				(name "Sheetfile")
+				(value "iidx-display.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "914a29e3-d200-4146-9545-01bd9070f238")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R10")
+			(value "330Ω")
+			(footprint "Resistor_SMD:R_0201_0603Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0201_0603Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "iidx-display")
+			)
+			(property
+				(name "Sheetfile")
+				(value "iidx-display.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ca28d2f9-885a-406c-bd53-a180814b88b1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R11")
+			(value "330Ω")
+			(footprint "Resistor_SMD:R_0201_0603Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0201_0603Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "iidx-display")
+			)
+			(property
+				(name "Sheetfile")
+				(value "iidx-display.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7a1c08d3-fc32-4a14-b0f7-704c8ebe87cc")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R12")
+			(value "330Ω")
+			(footprint "Resistor_SMD:R_0201_0603Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0201_0603Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "iidx-display")
+			)
+			(property
+				(name "Sheetfile")
+				(value "iidx-display.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "632473f0-7bf2-4709-8b2e-595a0b045960")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U1")
+			(value "~")
+			(footprint "ProLib_pcs_2026-05-01:SSOP-28_L9.9-W3.9-P0.64-LS6.0-BL")
+			(fields
+				(field
+					(name "Manufacturer Part") "HT16K33A-28SSOP")
+				(field
+					(name "Manufacturer") "HOLTEK(合泰/盛群)")
+				(field
+					(name "Supplier Part") "C5444738")
+				(field
+					(name "Supplier") "LCSC")
+				(field
+					(name "LCSC Part Name") "HT16K33A-28SSOP")
+				(field
+					(name "Footprint") "ProLib_pcs_2026-05-01:SSOP-28_L9.9-W3.9-P0.64-LS6.0-BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "iidx-library")
+				(part "HT16K33A-28SSOP")
+				(description "")
+			)
+			(property
+				(name "Manufacturer Part")
+				(value "HT16K33A-28SSOP")
+			)
+			(property
+				(name "Manufacturer")
+				(value "HOLTEK(合泰/盛群)")
+			)
+			(property
+				(name "Supplier Part")
+				(value "C5444738")
+			)
+			(property
+				(name "Supplier")
+				(value "LCSC")
+			)
+			(property
+				(name "LCSC Part Name")
+				(value "HT16K33A-28SSOP")
+			)
+			(property
+				(name "Sheetname")
+				(value "iidx-display")
+			)
+			(property
+				(name "Sheetfile")
+				(value "iidx-display.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "64ccaf56-e484-47cf-b569-ce0d21d70516")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "28")
+						)
+						(pin
+							(num "27")
+						)
+						(pin
+							(num "26")
+						)
+						(pin
+							(num "25")
+						)
+						(pin
+							(num "24")
+						)
+						(pin
+							(num "23")
+						)
+						(pin
+							(num "22")
+						)
+						(pin
+							(num "21")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "15")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U2")
+			(value "~")
+			(footprint "ProLib_pcs_2026-05-01:SSOP-28_L9.9-W3.9-P0.64-LS6.0-BL")
+			(fields
+				(field
+					(name "Manufacturer Part") "HT16K33A-28SSOP")
+				(field
+					(name "Manufacturer") "HOLTEK(合泰/盛群)")
+				(field
+					(name "Supplier Part") "C5444738")
+				(field
+					(name "Supplier") "LCSC")
+				(field
+					(name "LCSC Part Name") "HT16K33A-28SSOP")
+				(field
+					(name "Footprint") "ProLib_pcs_2026-05-01:SSOP-28_L9.9-W3.9-P0.64-LS6.0-BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "iidx-library")
+				(part "HT16K33A-28SSOP")
+				(description "")
+			)
+			(property
+				(name "Manufacturer Part")
+				(value "HT16K33A-28SSOP")
+			)
+			(property
+				(name "Manufacturer")
+				(value "HOLTEK(合泰/盛群)")
+			)
+			(property
+				(name "Supplier Part")
+				(value "C5444738")
+			)
+			(property
+				(name "Supplier")
+				(value "LCSC")
+			)
+			(property
+				(name "LCSC Part Name")
+				(value "HT16K33A-28SSOP")
+			)
+			(property
+				(name "Sheetname")
+				(value "iidx-display")
+			)
+			(property
+				(name "Sheetfile")
+				(value "iidx-display.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "535f03a9-d977-4460-ab27-cc499b7ce7df")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "28")
+						)
+						(pin
+							(num "27")
+						)
+						(pin
+							(num "26")
+						)
+						(pin
+							(num "25")
+						)
+						(pin
+							(num "24")
+						)
+						(pin
+							(num "23")
+						)
+						(pin
+							(num "22")
+						)
+						(pin
+							(num "21")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "15")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "Device")
+			(part "C")
+			(description "Unpolarized capacitor")
+			(footprints
+				(fp "C_*")
+			)
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "C")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "C_Polarized")
+			(description "Polarized capacitor")
+			(footprints
+				(fp "CP_*")
+			)
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "C_Polarized")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Polarized capacitor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "R")
+			(description "Resistor")
+			(footprints
+				(fp "R_*")
+			)
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "R")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Diode")
+			(part "1N4148WS")
+			(description "75V 0.15A Fast switching Diode, SOD-323")
+			(docs "https://www.vishay.com/docs/85751/1n4148ws.pdf")
+			(footprints
+				(fp "D*SOD?323*")
+			)
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "1N4148WS")
+				(field
+					(name "Footprint") "Diode_SMD:D_SOD-323")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/85751/1n4148ws.pdf")
+				(field
+					(name "Description") "75V 0.15A Fast switching Diode, SOD-323")
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "MCU_Module")
+			(part "RaspberryPi_Pico")
+			(description "Versatile and inexpensive microcontroller module powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash; also supports Raspberry Pi Pico 2")
+			(docs "https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf")
+			(footprints
+				(fp "RaspberryPi?Pico?Common*")
+				(fp "RaspberryPi?Pico?SMD*")
+			)
+			(fields
+				(field
+					(name "Reference") "A")
+				(field
+					(name "Value") "RaspberryPi_Pico")
+				(field
+					(name "Footprint") "Module:RaspberryPi_Pico_Common_Unspecified")
+				(field
+					(name "Datasheet") "https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf")
+				(field
+					(name "Description") "Versatile and inexpensive microcontroller module powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash; also supports Raspberry Pi Pico 2")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "GPIO0")
+					(type "bidirectional")
+				)
+				(pin
+					(num "2")
+					(name "GPIO1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "3")
+					(name "GND")
+					(type "power_out")
+				)
+				(pin
+					(num "4")
+					(name "GPIO2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "5")
+					(name "GPIO3")
+					(type "bidirectional")
+				)
+				(pin
+					(num "6")
+					(name "GPIO4")
+					(type "bidirectional")
+				)
+				(pin
+					(num "7")
+					(name "GPIO5")
+					(type "bidirectional")
+				)
+				(pin
+					(num "8")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "9")
+					(name "GPIO6")
+					(type "bidirectional")
+				)
+				(pin
+					(num "10")
+					(name "GPIO7")
+					(type "bidirectional")
+				)
+				(pin
+					(num "11")
+					(name "GPIO8")
+					(type "bidirectional")
+				)
+				(pin
+					(num "12")
+					(name "GPIO9")
+					(type "bidirectional")
+				)
+				(pin
+					(num "13")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "14")
+					(name "GPIO10")
+					(type "bidirectional")
+				)
+				(pin
+					(num "15")
+					(name "GPIO11")
+					(type "bidirectional")
+				)
+				(pin
+					(num "16")
+					(name "GPIO12")
+					(type "bidirectional")
+				)
+				(pin
+					(num "17")
+					(name "GPIO13")
+					(type "bidirectional")
+				)
+				(pin
+					(num "18")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "19")
+					(name "GPIO14")
+					(type "bidirectional")
+				)
+				(pin
+					(num "20")
+					(name "GPIO15")
+					(type "bidirectional")
+				)
+				(pin
+					(num "21")
+					(name "GPIO16")
+					(type "bidirectional")
+				)
+				(pin
+					(num "22")
+					(name "GPIO17")
+					(type "bidirectional")
+				)
+				(pin
+					(num "23")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "24")
+					(name "GPIO18")
+					(type "bidirectional")
+				)
+				(pin
+					(num "25")
+					(name "GPIO19")
+					(type "bidirectional")
+				)
+				(pin
+					(num "26")
+					(name "GPIO20")
+					(type "bidirectional")
+				)
+				(pin
+					(num "27")
+					(name "GPIO21")
+					(type "bidirectional")
+				)
+				(pin
+					(num "28")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "29")
+					(name "GPIO22")
+					(type "bidirectional")
+				)
+				(pin
+					(num "30")
+					(name "RUN")
+					(type "passive")
+				)
+				(pin
+					(num "31")
+					(name "GPIO26_ADC0")
+					(type "bidirectional")
+				)
+				(pin
+					(num "32")
+					(name "GPIO27_ADC1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "33")
+					(name "AGND")
+					(type "power_out")
+				)
+				(pin
+					(num "34")
+					(name "GPIO28_ADC2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "35")
+					(name "ADC_VREF")
+					(type "power_in")
+				)
+				(pin
+					(num "36")
+					(name "3V3")
+					(type "power_out")
+				)
+				(pin
+					(num "37")
+					(name "3V3_EN")
+					(type "passive")
+				)
+				(pin
+					(num "38")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "39")
+					(name "VSYS")
+					(type "power_in")
+				)
+				(pin
+					(num "40")
+					(name "VBUS")
+					(type "power_out")
+				)
+			)
+		)
+		(libpart
+			(lib "iidx-library")
+			(part "HT16K33A-28SSOP")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint") "ProLib_pcs_2026-05-01:SSOP-28_L9.9-W3.9-P0.64-LS6.0-BL")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+				(field
+					(name "Manufacturer Part") "HT16K33A-28SSOP")
+				(field
+					(name "Manufacturer") "HOLTEK(合泰/盛群)")
+				(field
+					(name "Supplier Part") "C5444738")
+				(field
+					(name "Supplier") "LCSC")
+				(field
+					(name "LCSC Part Name") "HT16K33A-28SSOP")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "VSS")
+					(type "unspecified")
+				)
+				(pin
+					(num "2")
+					(name "COM0/AD")
+					(type "unspecified")
+				)
+				(pin
+					(num "3")
+					(name "COM1/KS0")
+					(type "unspecified")
+				)
+				(pin
+					(num "4")
+					(name "COM2/KS1")
+					(type "unspecified")
+				)
+				(pin
+					(num "5")
+					(name "COM3/KS2")
+					(type "unspecified")
+				)
+				(pin
+					(num "6")
+					(name "COM4")
+					(type "unspecified")
+				)
+				(pin
+					(num "7")
+					(name "COM5")
+					(type "unspecified")
+				)
+				(pin
+					(num "8")
+					(name "COM6")
+					(type "unspecified")
+				)
+				(pin
+					(num "9")
+					(name "COM7")
+					(type "unspecified")
+				)
+				(pin
+					(num "10")
+					(name "ROW15/K13/INT")
+					(type "unspecified")
+				)
+				(pin
+					(num "11")
+					(name "ROW14/K12")
+					(type "unspecified")
+				)
+				(pin
+					(num "12")
+					(name "ROW13/K11")
+					(type "unspecified")
+				)
+				(pin
+					(num "13")
+					(name "ROW12/K10")
+					(type "unspecified")
+				)
+				(pin
+					(num "14")
+					(name "ROW11/K9")
+					(type "unspecified")
+				)
+				(pin
+					(num "15")
+					(name "ROW10/K8")
+					(type "unspecified")
+				)
+				(pin
+					(num "16")
+					(name "ROW9/K7")
+					(type "unspecified")
+				)
+				(pin
+					(num "17")
+					(name "ROW8/K6")
+					(type "unspecified")
+				)
+				(pin
+					(num "18")
+					(name "ROW7/K5")
+					(type "unspecified")
+				)
+				(pin
+					(num "19")
+					(name "ROW6/K4")
+					(type "unspecified")
+				)
+				(pin
+					(num "20")
+					(name "ROW5/K3")
+					(type "unspecified")
+				)
+				(pin
+					(num "21")
+					(name "ROW4/K2")
+					(type "unspecified")
+				)
+				(pin
+					(num "22")
+					(name "ROW3/K1")
+					(type "unspecified")
+				)
+				(pin
+					(num "23")
+					(name "ROW2/A0")
+					(type "unspecified")
+				)
+				(pin
+					(num "24")
+					(name "ROW1/A1")
+					(type "unspecified")
+				)
+				(pin
+					(num "25")
+					(name "ROW0/A2")
+					(type "unspecified")
+				)
+				(pin
+					(num "26")
+					(name "SCL")
+					(type "unspecified")
+				)
+				(pin
+					(num "27")
+					(name "SDA")
+					(type "unspecified")
+				)
+				(pin
+					(num "28")
+					(name "VDD")
+					(type "unspecified")
+				)
+			)
+		)
+		(libpart
+			(lib "iidx-library")
+			(part "PSC08-11SURKWA")
+			(description "Number of Characters:1 Display Type:16 Segment Digit/Alpha Size(inch):0.8 Pd - Power Dissipation:75mW Illumination Color:Red LED Polarity:Common Cathode")
+			(docs "https://item.szlcsc.com/datasheet/PSC08-11SURKWA/7201483.html")
+			(fields
+				(field
+					(name "Reference") "LED")
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint") "ProLib_pcs_2026-05-01:LED-SEG-TH_18P-L27.7-W19.9-P2.54-LS15.2_HDSP-3903")
+				(field
+					(name "Datasheet") "https://item.szlcsc.com/datasheet/PSC08-11SURKWA/7201483.html")
+				(field
+					(name "Description") "Number of Characters:1 Display Type:16 Segment Digit/Alpha Size(inch):0.8 Pd - Power Dissipation:75mW Illumination Color:Red LED Polarity:Common Cathode")
+				(field
+					(name "Manufacturer Part") "PSC08-11SURKWA")
+				(field
+					(name "Manufacturer") "Kingbright")
+				(field
+					(name "Supplier Part") "C6256052")
+				(field
+					(name "Supplier") "LCSC")
+				(field
+					(name "LCSC Part Name") "PSC08-11SURKWA")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "a")
+					(type "unspecified")
+				)
+				(pin
+					(num "2")
+					(name "m")
+					(type "unspecified")
+				)
+				(pin
+					(num "3")
+					(name "k")
+					(type "unspecified")
+				)
+				(pin
+					(num "4")
+					(name "h")
+					(type "unspecified")
+				)
+				(pin
+					(num "5")
+					(name "u")
+					(type "unspecified")
+				)
+				(pin
+					(num "6")
+					(name "s")
+					(type "unspecified")
+				)
+				(pin
+					(num "7")
+					(name "t")
+					(type "unspecified")
+				)
+				(pin
+					(num "8")
+					(name "g")
+					(type "unspecified")
+				)
+				(pin
+					(num "9")
+					(name "f")
+					(type "unspecified")
+				)
+				(pin
+					(num "10")
+					(name "e")
+					(type "unspecified")
+				)
+				(pin
+					(num "11")
+					(name "C")
+					(type "unspecified")
+				)
+				(pin
+					(num "12")
+					(name "DP")
+					(type "unspecified")
+				)
+				(pin
+					(num "13")
+					(name "d")
+					(type "unspecified")
+				)
+				(pin
+					(num "14")
+					(name "r")
+					(type "unspecified")
+				)
+				(pin
+					(num "15")
+					(name "p")
+					(type "unspecified")
+				)
+				(pin
+					(num "16")
+					(name "c")
+					(type "unspecified")
+				)
+				(pin
+					(num "17")
+					(name "n")
+					(type "unspecified")
+				)
+				(pin
+					(num "18")
+					(name "b")
+					(type "unspecified")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "Device")
+			(uri "${KICAD10_SYMBOL_DIR}/Device.kicad_sym")
+		)
+		(library
+			(logical "Diode")
+			(uri "${KICAD10_SYMBOL_DIR}/Diode.kicad_sym")
+		)
+		(library
+			(logical "MCU_Module")
+			(uri "${KICAD10_SYMBOL_DIR}/MCU_Module.kicad_sym")
+		)
+		(library
+			(logical "iidx-library")
+			(uri "${KIPRJMOD}/iidx-library.kicad_sym")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "3v3")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "36")
+				(pinfunction "3V3_36")
+				(pintype "power_out")
+			)
+			(node
+				(ref "R1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "2")
+			(name "5v")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "40")
+				(pinfunction "VBUS_40")
+				(pintype "power_out")
+			)
+			(node
+				(ref "C1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C4")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C5")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "28")
+				(pinfunction "VDD_28")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U2")
+				(pin "28")
+				(pinfunction "VDD_28")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "3")
+			(name "A0")
+			(class "Default")
+			(node
+				(ref "LED1")
+				(pin "16")
+				(pinfunction "c_16")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED2")
+				(pin "16")
+				(pinfunction "c_16")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED3")
+				(pin "16")
+				(pinfunction "c_16")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED4")
+				(pin "16")
+				(pinfunction "c_16")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED5")
+				(pin "16")
+				(pinfunction "c_16")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED6")
+				(pin "16")
+				(pinfunction "c_16")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED7")
+				(pin "16")
+				(pinfunction "c_16")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED8")
+				(pin "16")
+				(pinfunction "c_16")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED9")
+				(pin "16")
+				(pinfunction "c_16")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "R3")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "23")
+				(pinfunction "ROW2/A0_23")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U2")
+				(pin "23")
+				(pinfunction "ROW2/A0_23")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "4")
+			(name "AD")
+			(class "Default")
+			(node
+				(ref "D1")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "2")
+				(pinfunction "COM0/AD_2")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "5")
+			(name "D1 COM")
+			(class "Default")
+			(node
+				(ref "LED1")
+				(pin "11")
+				(pinfunction "C_11")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U1")
+				(pin "2")
+				(pinfunction "COM0/AD_2")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "6")
+			(name "D2 COM")
+			(class "Default")
+			(node
+				(ref "LED2")
+				(pin "11")
+				(pinfunction "C_11")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U1")
+				(pin "3")
+				(pinfunction "COM1/KS0_3")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "7")
+			(name "D3 COM")
+			(class "Default")
+			(node
+				(ref "LED3")
+				(pin "11")
+				(pinfunction "C_11")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U1")
+				(pin "4")
+				(pinfunction "COM2/KS1_4")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "8")
+			(name "D4 COM")
+			(class "Default")
+			(node
+				(ref "LED4")
+				(pin "11")
+				(pinfunction "C_11")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U1")
+				(pin "5")
+				(pinfunction "COM3/KS2_5")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "9")
+			(name "D5 COM")
+			(class "Default")
+			(node
+				(ref "LED5")
+				(pin "11")
+				(pinfunction "C_11")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U1")
+				(pin "6")
+				(pinfunction "COM4_6")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "10")
+			(name "D6 COM")
+			(class "Default")
+			(node
+				(ref "LED6")
+				(pin "11")
+				(pinfunction "C_11")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U2")
+				(pin "3")
+				(pinfunction "COM1/KS0_3")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "11")
+			(name "D7 COM")
+			(class "Default")
+			(node
+				(ref "LED7")
+				(pin "11")
+				(pinfunction "C_11")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U2")
+				(pin "4")
+				(pinfunction "COM2/KS1_4")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "12")
+			(name "D8 COM")
+			(class "Default")
+			(node
+				(ref "LED8")
+				(pin "11")
+				(pinfunction "C_11")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U2")
+				(pin "5")
+				(pinfunction "COM3/KS2_5")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "13")
+			(name "D9 COM")
+			(class "Default")
+			(node
+				(ref "LED9")
+				(pin "11")
+				(pinfunction "C_11")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U2")
+				(pin "6")
+				(pinfunction "COM4_6")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "14")
+			(name "DP1")
+			(class "Default")
+			(node
+				(ref "LED1")
+				(pin "12")
+				(pinfunction "DP_12")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "R4")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "15")
+			(name "DP2")
+			(class "Default")
+			(node
+				(ref "LED2")
+				(pin "12")
+				(pinfunction "DP_12")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "R5")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "16")
+			(name "DP3")
+			(class "Default")
+			(node
+				(ref "LED3")
+				(pin "12")
+				(pinfunction "DP_12")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "R6")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "17")
+			(name "DP4")
+			(class "Default")
+			(node
+				(ref "LED4")
+				(pin "12")
+				(pinfunction "DP_12")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "R7")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "18")
+			(name "DP5")
+			(class "Default")
+			(node
+				(ref "LED5")
+				(pin "12")
+				(pinfunction "DP_12")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "R8")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "19")
+			(name "DP6")
+			(class "Default")
+			(node
+				(ref "LED6")
+				(pin "12")
+				(pinfunction "DP_12")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "R9")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "20")
+			(name "DP7")
+			(class "Default")
+			(node
+				(ref "LED7")
+				(pin "12")
+				(pinfunction "DP_12")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "R10")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "21")
+			(name "DP8")
+			(class "Default")
+			(node
+				(ref "LED8")
+				(pin "12")
+				(pinfunction "DP_12")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "R11")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "22")
+			(name "DP9")
+			(class "Default")
+			(node
+				(ref "LED9")
+				(pin "12")
+				(pinfunction "DP_12")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "R12")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "23")
+			(name "GND")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "13")
+				(pinfunction "GND_13")
+				(pintype "passive")
+			)
+			(node
+				(ref "A1")
+				(pin "18")
+				(pinfunction "GND_18")
+				(pintype "passive")
+			)
+			(node
+				(ref "A1")
+				(pin "23")
+				(pinfunction "GND_23")
+				(pintype "passive")
+			)
+			(node
+				(ref "A1")
+				(pin "28")
+				(pinfunction "GND_28")
+				(pintype "passive")
+			)
+			(node
+				(ref "A1")
+				(pin "3")
+				(pinfunction "GND_3")
+				(pintype "power_out")
+			)
+			(node
+				(ref "A1")
+				(pin "38")
+				(pinfunction "GND_38")
+				(pintype "passive")
+			)
+			(node
+				(ref "A1")
+				(pin "8")
+				(pinfunction "GND_8")
+				(pintype "passive")
+			)
+			(node
+				(ref "C1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C4")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C5")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "1")
+				(pinfunction "VSS_1")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U2")
+				(pin "1")
+				(pinfunction "VSS_1")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "24")
+			(name "GP2")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "4")
+				(pinfunction "GPIO2_4")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "R4")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "25")
+			(name "GP3")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "5")
+				(pinfunction "GPIO3_5")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "R5")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "26")
+			(name "GP4")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "6")
+				(pinfunction "GPIO4_6")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "R6")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "27")
+			(name "GP5")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "7")
+				(pinfunction "GPIO5_7")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "R7")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "28")
+			(name "GP6")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "9")
+				(pinfunction "GPIO6_9")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "R8")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "29")
+			(name "GP7")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "10")
+				(pinfunction "GPIO7_10")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "R9")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "30")
+			(name "GP8")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "11")
+				(pinfunction "GPIO8_11")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "R10")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "31")
+			(name "GP9")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "12")
+				(pinfunction "GPIO9_12")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "R11")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "32")
+			(name "GP10")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "14")
+				(pinfunction "GPIO10_14")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "R12")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "33")
+			(name "Net-(D1-K)")
+			(class "Default")
+			(node
+				(ref "D1")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R3")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "34")
+			(name "SCL")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "2")
+				(pinfunction "GPIO1_2")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "R2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "26")
+				(pinfunction "SCL_26")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U2")
+				(pin "26")
+				(pinfunction "SCL_26")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "35")
+			(name "SDA")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "1")
+				(pinfunction "GPIO0_1")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "R1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "27")
+				(pinfunction "SDA_27")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U2")
+				(pin "27")
+				(pinfunction "SDA_27")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "36")
+			(name "SEG A1")
+			(class "Default")
+			(node
+				(ref "LED1")
+				(pin "1")
+				(pinfunction "a_1")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED2")
+				(pin "1")
+				(pinfunction "a_1")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED3")
+				(pin "1")
+				(pinfunction "a_1")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED4")
+				(pin "1")
+				(pinfunction "a_1")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED5")
+				(pin "1")
+				(pinfunction "a_1")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED6")
+				(pin "1")
+				(pinfunction "a_1")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED7")
+				(pin "1")
+				(pinfunction "a_1")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED8")
+				(pin "1")
+				(pinfunction "a_1")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED9")
+				(pin "1")
+				(pinfunction "a_1")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U1")
+				(pin "25")
+				(pinfunction "ROW0/A2_25")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U2")
+				(pin "25")
+				(pinfunction "ROW0/A2_25")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "37")
+			(name "SEG B1")
+			(class "Default")
+			(node
+				(ref "LED1")
+				(pin "18")
+				(pinfunction "b_18")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED2")
+				(pin "18")
+				(pinfunction "b_18")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED3")
+				(pin "18")
+				(pinfunction "b_18")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED4")
+				(pin "18")
+				(pinfunction "b_18")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED5")
+				(pin "18")
+				(pinfunction "b_18")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED6")
+				(pin "18")
+				(pinfunction "b_18")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED7")
+				(pin "18")
+				(pinfunction "b_18")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED8")
+				(pin "18")
+				(pinfunction "b_18")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED9")
+				(pin "18")
+				(pinfunction "b_18")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U1")
+				(pin "24")
+				(pinfunction "ROW1/A1_24")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U2")
+				(pin "24")
+				(pinfunction "ROW1/A1_24")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "38")
+			(name "SEG D1")
+			(class "Default")
+			(node
+				(ref "LED1")
+				(pin "13")
+				(pinfunction "d_13")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED2")
+				(pin "13")
+				(pinfunction "d_13")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED3")
+				(pin "13")
+				(pinfunction "d_13")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED4")
+				(pin "13")
+				(pinfunction "d_13")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED5")
+				(pin "13")
+				(pinfunction "d_13")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED6")
+				(pin "13")
+				(pinfunction "d_13")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED7")
+				(pin "13")
+				(pinfunction "d_13")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED8")
+				(pin "13")
+				(pinfunction "d_13")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED9")
+				(pin "13")
+				(pinfunction "d_13")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U1")
+				(pin "22")
+				(pinfunction "ROW3/K1_22")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "39")
+			(name "SEG D2")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "22")
+				(pinfunction "ROW3/K1_22")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "40")
+			(name "SEG E1")
+			(class "Default")
+			(node
+				(ref "LED1")
+				(pin "10")
+				(pinfunction "e_10")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED2")
+				(pin "10")
+				(pinfunction "e_10")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED3")
+				(pin "10")
+				(pinfunction "e_10")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED4")
+				(pin "10")
+				(pinfunction "e_10")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED5")
+				(pin "10")
+				(pinfunction "e_10")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED6")
+				(pin "10")
+				(pinfunction "e_10")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED7")
+				(pin "10")
+				(pinfunction "e_10")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED8")
+				(pin "10")
+				(pinfunction "e_10")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED9")
+				(pin "10")
+				(pinfunction "e_10")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U1")
+				(pin "21")
+				(pinfunction "ROW4/K2_21")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "41")
+			(name "SEG E2")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "21")
+				(pinfunction "ROW4/K2_21")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "42")
+			(name "SEG F1")
+			(class "Default")
+			(node
+				(ref "LED1")
+				(pin "9")
+				(pinfunction "f_9")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED2")
+				(pin "9")
+				(pinfunction "f_9")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED3")
+				(pin "9")
+				(pinfunction "f_9")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED4")
+				(pin "9")
+				(pinfunction "f_9")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED5")
+				(pin "9")
+				(pinfunction "f_9")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED6")
+				(pin "9")
+				(pinfunction "f_9")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED7")
+				(pin "9")
+				(pinfunction "f_9")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED8")
+				(pin "9")
+				(pinfunction "f_9")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED9")
+				(pin "9")
+				(pinfunction "f_9")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U1")
+				(pin "20")
+				(pinfunction "ROW5/K3_20")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "43")
+			(name "SEG F2")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "20")
+				(pinfunction "ROW5/K3_20")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "44")
+			(name "SEG G1")
+			(class "Default")
+			(node
+				(ref "LED1")
+				(pin "8")
+				(pinfunction "g_8")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED2")
+				(pin "8")
+				(pinfunction "g_8")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED3")
+				(pin "8")
+				(pinfunction "g_8")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED4")
+				(pin "8")
+				(pinfunction "g_8")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED5")
+				(pin "8")
+				(pinfunction "g_8")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED6")
+				(pin "8")
+				(pinfunction "g_8")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED7")
+				(pin "8")
+				(pinfunction "g_8")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED8")
+				(pin "8")
+				(pinfunction "g_8")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED9")
+				(pin "8")
+				(pinfunction "g_8")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U1")
+				(pin "19")
+				(pinfunction "ROW6/K4_19")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "45")
+			(name "SEG G2")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "19")
+				(pinfunction "ROW6/K4_19")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "46")
+			(name "SEG H1")
+			(class "Default")
+			(node
+				(ref "LED1")
+				(pin "4")
+				(pinfunction "h_4")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED2")
+				(pin "4")
+				(pinfunction "h_4")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED3")
+				(pin "4")
+				(pinfunction "h_4")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED4")
+				(pin "4")
+				(pinfunction "h_4")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED5")
+				(pin "4")
+				(pinfunction "h_4")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED6")
+				(pin "4")
+				(pinfunction "h_4")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED7")
+				(pin "4")
+				(pinfunction "h_4")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED8")
+				(pin "4")
+				(pinfunction "h_4")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED9")
+				(pin "4")
+				(pinfunction "h_4")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U1")
+				(pin "18")
+				(pinfunction "ROW7/K5_18")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "47")
+			(name "SEG H2")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "18")
+				(pinfunction "ROW7/K5_18")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "48")
+			(name "SEG K1")
+			(class "Default")
+			(node
+				(ref "LED1")
+				(pin "3")
+				(pinfunction "k_3")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED2")
+				(pin "3")
+				(pinfunction "k_3")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED3")
+				(pin "3")
+				(pinfunction "k_3")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED4")
+				(pin "3")
+				(pinfunction "k_3")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED5")
+				(pin "3")
+				(pinfunction "k_3")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED6")
+				(pin "3")
+				(pinfunction "k_3")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED7")
+				(pin "3")
+				(pinfunction "k_3")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED8")
+				(pin "3")
+				(pinfunction "k_3")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED9")
+				(pin "3")
+				(pinfunction "k_3")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U1")
+				(pin "17")
+				(pinfunction "ROW8/K6_17")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "49")
+			(name "SEG K2")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "17")
+				(pinfunction "ROW8/K6_17")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "50")
+			(name "SEG M1")
+			(class "Default")
+			(node
+				(ref "LED1")
+				(pin "2")
+				(pinfunction "m_2")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED2")
+				(pin "2")
+				(pinfunction "m_2")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED3")
+				(pin "2")
+				(pinfunction "m_2")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED4")
+				(pin "2")
+				(pinfunction "m_2")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED5")
+				(pin "2")
+				(pinfunction "m_2")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED6")
+				(pin "2")
+				(pinfunction "m_2")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED7")
+				(pin "2")
+				(pinfunction "m_2")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED8")
+				(pin "2")
+				(pinfunction "m_2")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED9")
+				(pin "2")
+				(pinfunction "m_2")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U1")
+				(pin "16")
+				(pinfunction "ROW9/K7_16")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "51")
+			(name "SEG M2")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "16")
+				(pinfunction "ROW9/K7_16")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "52")
+			(name "SEG N1")
+			(class "Default")
+			(node
+				(ref "LED1")
+				(pin "17")
+				(pinfunction "n_17")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED2")
+				(pin "17")
+				(pinfunction "n_17")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED3")
+				(pin "17")
+				(pinfunction "n_17")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED4")
+				(pin "17")
+				(pinfunction "n_17")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED5")
+				(pin "17")
+				(pinfunction "n_17")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED6")
+				(pin "17")
+				(pinfunction "n_17")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED7")
+				(pin "17")
+				(pinfunction "n_17")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED8")
+				(pin "17")
+				(pinfunction "n_17")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED9")
+				(pin "17")
+				(pinfunction "n_17")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U1")
+				(pin "15")
+				(pinfunction "ROW10/K8_15")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "53")
+			(name "SEG N2")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "15")
+				(pinfunction "ROW10/K8_15")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "54")
+			(name "SEG P1")
+			(class "Default")
+			(node
+				(ref "LED1")
+				(pin "15")
+				(pinfunction "p_15")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED2")
+				(pin "15")
+				(pinfunction "p_15")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED3")
+				(pin "15")
+				(pinfunction "p_15")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED4")
+				(pin "15")
+				(pinfunction "p_15")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED5")
+				(pin "15")
+				(pinfunction "p_15")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED6")
+				(pin "15")
+				(pinfunction "p_15")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED7")
+				(pin "15")
+				(pinfunction "p_15")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED8")
+				(pin "15")
+				(pinfunction "p_15")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED9")
+				(pin "15")
+				(pinfunction "p_15")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U1")
+				(pin "14")
+				(pinfunction "ROW11/K9_14")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "55")
+			(name "SEG P2")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "14")
+				(pinfunction "ROW11/K9_14")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "56")
+			(name "SEG R1")
+			(class "Default")
+			(node
+				(ref "LED1")
+				(pin "14")
+				(pinfunction "r_14")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED2")
+				(pin "14")
+				(pinfunction "r_14")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED3")
+				(pin "14")
+				(pinfunction "r_14")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED4")
+				(pin "14")
+				(pinfunction "r_14")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED5")
+				(pin "14")
+				(pinfunction "r_14")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED6")
+				(pin "14")
+				(pinfunction "r_14")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED7")
+				(pin "14")
+				(pinfunction "r_14")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED8")
+				(pin "14")
+				(pinfunction "r_14")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED9")
+				(pin "14")
+				(pinfunction "r_14")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U1")
+				(pin "12")
+				(pinfunction "ROW13/K11_12")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "57")
+			(name "SEG R2")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "12")
+				(pinfunction "ROW13/K11_12")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "58")
+			(name "SEG S1")
+			(class "Default")
+			(node
+				(ref "LED1")
+				(pin "6")
+				(pinfunction "s_6")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED2")
+				(pin "6")
+				(pinfunction "s_6")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED3")
+				(pin "6")
+				(pinfunction "s_6")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED4")
+				(pin "6")
+				(pinfunction "s_6")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED5")
+				(pin "6")
+				(pinfunction "s_6")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED6")
+				(pin "6")
+				(pinfunction "s_6")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED7")
+				(pin "6")
+				(pinfunction "s_6")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED8")
+				(pin "6")
+				(pinfunction "s_6")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED9")
+				(pin "6")
+				(pinfunction "s_6")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U1")
+				(pin "13")
+				(pinfunction "ROW12/K10_13")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "59")
+			(name "SEG S2")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "13")
+				(pinfunction "ROW12/K10_13")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "60")
+			(name "SEG T1")
+			(class "Default")
+			(node
+				(ref "LED1")
+				(pin "7")
+				(pinfunction "t_7")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED2")
+				(pin "7")
+				(pinfunction "t_7")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED3")
+				(pin "7")
+				(pinfunction "t_7")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED4")
+				(pin "7")
+				(pinfunction "t_7")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED5")
+				(pin "7")
+				(pinfunction "t_7")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED6")
+				(pin "7")
+				(pinfunction "t_7")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED7")
+				(pin "7")
+				(pinfunction "t_7")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED8")
+				(pin "7")
+				(pinfunction "t_7")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED9")
+				(pin "7")
+				(pinfunction "t_7")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U1")
+				(pin "11")
+				(pinfunction "ROW14/K12_11")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "61")
+			(name "SEG T2")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "11")
+				(pinfunction "ROW14/K12_11")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "62")
+			(name "SEG U1")
+			(class "Default")
+			(node
+				(ref "LED1")
+				(pin "5")
+				(pinfunction "u_5")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED2")
+				(pin "5")
+				(pinfunction "u_5")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED3")
+				(pin "5")
+				(pinfunction "u_5")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED4")
+				(pin "5")
+				(pinfunction "u_5")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED5")
+				(pin "5")
+				(pinfunction "u_5")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED6")
+				(pin "5")
+				(pinfunction "u_5")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED7")
+				(pin "5")
+				(pinfunction "u_5")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED8")
+				(pin "5")
+				(pinfunction "u_5")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "LED9")
+				(pin "5")
+				(pinfunction "u_5")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U1")
+				(pin "10")
+				(pinfunction "ROW15/K13/INT_10")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "63")
+			(name "SEG U2")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "10")
+				(pinfunction "ROW15/K13/INT_10")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "64")
+			(name "unconnected-(A1-3V3_EN-Pad37)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "37")
+				(pinfunction "3V3_EN_37")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "65")
+			(name "unconnected-(A1-ADC_VREF-Pad35)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "35")
+				(pinfunction "ADC_VREF_35")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "66")
+			(name "unconnected-(A1-AGND-Pad33)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "33")
+				(pinfunction "AGND_33")
+				(pintype "power_out")
+			)
+		)
+		(net
+			(code "67")
+			(name "unconnected-(A1-GPIO11-Pad15)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "15")
+				(pinfunction "GPIO11_15")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "68")
+			(name "unconnected-(A1-GPIO12-Pad16)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "16")
+				(pinfunction "GPIO12_16")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "69")
+			(name "unconnected-(A1-GPIO13-Pad17)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "17")
+				(pinfunction "GPIO13_17")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "70")
+			(name "unconnected-(A1-GPIO14-Pad19)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "19")
+				(pinfunction "GPIO14_19")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "71")
+			(name "unconnected-(A1-GPIO15-Pad20)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "20")
+				(pinfunction "GPIO15_20")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "72")
+			(name "unconnected-(A1-GPIO16-Pad21)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "21")
+				(pinfunction "GPIO16_21")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "73")
+			(name "unconnected-(A1-GPIO17-Pad22)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "22")
+				(pinfunction "GPIO17_22")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "74")
+			(name "unconnected-(A1-GPIO18-Pad24)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "24")
+				(pinfunction "GPIO18_24")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "75")
+			(name "unconnected-(A1-GPIO19-Pad25)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "25")
+				(pinfunction "GPIO19_25")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "76")
+			(name "unconnected-(A1-GPIO20-Pad26)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "26")
+				(pinfunction "GPIO20_26")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "77")
+			(name "unconnected-(A1-GPIO21-Pad27)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "27")
+				(pinfunction "GPIO21_27")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "78")
+			(name "unconnected-(A1-GPIO22-Pad29)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "29")
+				(pinfunction "GPIO22_29")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "79")
+			(name "unconnected-(A1-GPIO26_ADC0-Pad31)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "31")
+				(pinfunction "GPIO26_ADC0_31")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "80")
+			(name "unconnected-(A1-GPIO27_ADC1-Pad32)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "32")
+				(pinfunction "GPIO27_ADC1_32")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "81")
+			(name "unconnected-(A1-GPIO28_ADC2-Pad34)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "34")
+				(pinfunction "GPIO28_ADC2_34")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "82")
+			(name "unconnected-(A1-RUN-Pad30)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "30")
+				(pinfunction "RUN_30")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "83")
+			(name "unconnected-(A1-VSYS-Pad39)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "39")
+				(pinfunction "VSYS_39")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "84")
+			(name "unconnected-(U1-COM5-Pad7)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "7")
+				(pinfunction "COM5_7")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "85")
+			(name "unconnected-(U1-COM6-Pad8)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "8")
+				(pinfunction "COM6_8")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "86")
+			(name "unconnected-(U1-COM7-Pad9)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "9")
+				(pinfunction "COM7_9")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "87")
+			(name "unconnected-(U2-COM5-Pad7)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "7")
+				(pinfunction "COM5_7")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "88")
+			(name "unconnected-(U2-COM6-Pad8)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "8")
+				(pinfunction "COM6_8")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "89")
+			(name "unconnected-(U2-COM7-Pad9)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "9")
+				(pinfunction "COM7_9")
+				(pintype "unspecified")
+			)
+		)
+	)
+)

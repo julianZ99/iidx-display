@@ -1,0 +1,36 @@
+# KiCad
+pcb/*.bak
+pcb/fp-lib-table
+pcb/*.kicad_prl
+pcb/*-cache.dcm
+pcb/*-cache.lib
+pcb/*-cache.kicad_sym
+pcb/*.kicad_dru
+pcb/*.kicad_wks
+
+# Pico SDK
+firmware/build/
+firmware/cmake-build-*/
+firmware/CMakeCache.txt
+firmware/CMakeFiles/
+firmware/Makefile
+firmware/cmake_install.cmake
+firmware/elf2uf2/
+firmware/pico-sdk/
+firmware/*.elf
+firmware/*.uf2
+firmware/*.bin
+firmware/*.hex
+firmware/*.o
+firmware/*.d
+
+# VS Code
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~

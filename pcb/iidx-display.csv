@@ -1,0 +1,9 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"C1";"C_Elec_6.3x5.4";1;"47µF";;;
+2;"C2, C4";"C_0603_1608Metric";2;"100nF";;;
+3;"C3, C5";"C_0805_2012Metric";2;"10µF";;;
+4;"D1";"D_SOD-323";1;"1N4148WS";;;
+5;"R1, R2";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";2;"4.7kΩ";;;
+6;"R3";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";1;"39kΩ";;;
+7;"R4, R5, R6, R7, R8, R9, R10, R11, R12";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";9;"330Ω";;;
+8;"U1, U2";"SSOP-28_L9.9-W3.9-P0.64-LS6.0-BL";2;"~";;;
